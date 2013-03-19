@@ -9,6 +9,6 @@ version          "1.0.14"
   supports os
 end
 
-%w{ apache2 collectd-plugins yum }.each do |dep|
+%w{ apache2 yum }.each do |dep|
   depends dep
 end
